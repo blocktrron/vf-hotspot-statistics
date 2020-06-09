@@ -1,0 +1,6 @@
+output.json
+
+*.pyc
+
+.idea/
+__pycache__/
