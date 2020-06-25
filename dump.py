@@ -89,7 +89,7 @@ def get_points(oui_list, lowleftlat, lowleftlon, toprightlat, toprightlon):
 
 if __name__ == '__main__':
     if len(sys.argv) < 6:
-        print("Usage: {} LOWLEFTLAT LOWLEFTLON TOPRIGHTLAT TOPRIGHTLON".format(sys.argv[0]))
+        print("Usage: {} OUT_FILE LOWLEFTLAT LOWLEFTLON TOPRIGHTLAT TOPRIGHTLON".format(sys.argv[0]))
         sys.exit(1)
 
     out_filename = sys.argv[1]
